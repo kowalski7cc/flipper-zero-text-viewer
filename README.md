@@ -6,4 +6,4 @@ A fork with a few changes from [QTRoS' hext viewer](https://github.com/QtRoS/fli
 
 ![Text Viewer app!](https://github.com/kyhwana/flipper-zero-hex-viewer/blob/master/textviewerflipper.PNG?raw=true)
 
-[Link to FAP](https://nightly.link/QtRoS/flipper-zero-hex-viewer/actions/artifacts/448677581.zip)
+[Link to FAP](https://github.com/kyhwana/latest_flipper_zero_apps/raw/main/text_viewer.fap)
