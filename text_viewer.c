@@ -82,7 +82,7 @@ static void render_callback(Canvas* canvas, void* ctx) {
             memcpy(temp_buf, text_viewer->model->file_bytes[i], bytes_left_per_row);
             temp_buf[bytes_left_per_row] = '\0';
             for(uint32_t j = 0; j < bytes_left_per_row; ++j)
-                if(!isprint((int)temp_buf[j])) temp_buf[j] = '.';
+                if(!isprint((int)temp_buf[j])) temp_buf[j] = ' ';
 
             canvas_set_font(canvas, FontKeyboard);
             canvas_draw_str(canvas, LEFT_OFFSET, TOP_OFFSET + i * ROW_HEIGHT, temp_buf);
